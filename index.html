@@ -1,23 +1,226 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Release Compass</title>
-    <!-- Release Compass Labs -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Release Compass | Navigate Every Release With Confidence</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#1e293b;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+opacity:.9;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:#3b82f6;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:60px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:40px;
+color:#0f172a;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-bottom:12px;
+color:#1e3a8a;
+}
+
+.about{
+text-align:center;
+max-width:900px;
+margin:auto;
+font-size:1.1rem;
+}
+
+.why{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.why div{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.contact a{
+color:#60a5fa;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+color:white;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:2.2rem;
+}
+}
+</style>
 </head>
+
 <body>
-    <h1>Release Compass</h1>
-    <h2>Navigate Every Release With Confidence</h2>
 
-    <h3>Services</h3>
-    <ul>
-        <li>QA Automation</li>
-        <li>Release Readiness</li>
-        <li>Performance Testing</li>
-        <li>API Testing</li>
-        <li>Quality Engineering</li>
-    </ul>
+<header>
+<h1>Release Compass</h1>
+<p>Navigate Every Release With Confidence</p>
 
-    <h3>Contact</h3>
-    <p>LinkedIn: Release Compass</p>
+<a class="btn" href="https://www.linkedin.com" target="_blank">
+Connect With Us
+</a>
+</header>
+
+<section class="container">
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>QA Automation</h3>
+<p>End-to-end test automation using Selenium, Playwright, API Automation and CI/CD pipelines.</p>
+</div>
+
+<div class="card">
+<h3>Release Readiness</h3>
+<p>Comprehensive release validation, risk assessment and go-live confidence checks.</p>
+</div>
+
+<div class="card">
+<h3>Performance Testing</h3>
+<p>JMeter based load, stress and scalability testing for enterprise applications.</p>
+</div>
+
+<div class="card">
+<h3>Quality Engineering</h3>
+<p>Shift-left testing, quality strategy, process improvement and engineering excellence.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+<p>
+Release Compass helps teams deliver reliable software releases through
+QA Automation, Release Validation, Performance Testing and Quality Engineering practices.
+We focus on reducing production risks and improving release confidence.
+</p>
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">Why Release Compass?</h2>
+
+<div class="why">
+
+<div>
+<h3>✔ Faster Releases</h3>
+<p>Accelerate delivery with automation-driven quality.</p>
+</div>
+
+<div>
+<h3>✔ Reduced Risk</h3>
+<p>Identify issues before production deployment.</p>
+</div>
+
+<div>
+<h3>✔ Better Coverage</h3>
+<p>Improve test coverage across UI, API and integrations.</p>
+</div>
+
+<div>
+<h3>✔ Scalable Quality</h3>
+<p>Build sustainable testing practices for growing teams.</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact">
+<h2>Let's Build Better Releases</h2>
+<br>
+<p>Email: releasecompass.qa@gmail.com</p>
+<br>
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com" target="_blank">
+Release Compass
+</a>
+</p>
+</section>
+
+<footer>
+© 2026 Release Compass. All Rights Reserved.
+</footer>
+
 </body>
 </html>
